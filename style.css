@@ -1,0 +1,315 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Home  */
+
+/* Navbaer */
+
+nav {
+background-color: white;
+margin-top: 10px;
+
+
+}
+.navbar-brand {
+  font-family: 'Saira', sans-serif;
+  font-size: 36px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 210px;
+}
+
+
+
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  margin-right: 30px;
+
+}
+
+
+.nav-link {
+  color:black;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+li {
+  color:black;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+/* Akhri Navbar */
+
+
+
+/* jumbotron */
+.jumbotron {
+  margin-top: 40px;
+  background-color: #ECECEC;
+  height:600px ;
+}
+
+.c-1{
+  font-family: 'Saira', sans-serif;
+  font-size: 64px;
+  letter-spacing: 23px;
+  font-weight: 700;
+}
+
+
+.c-2{
+  font-family: 'Saira', sans-serif;
+  font-size: 36px;
+  letter-spacing: 25px;
+  font-weight: 600;
+}
+
+
+
+
+a.btn {
+  background-color: #FB6A6A;
+  padding: 10  15px;
+  margin-top: 10px;
+  color: white;
+
+
+
+
+}
+
+
+.jumbotron img{
+
+  width: 390px;
+  margin-top: -70px;
+}
+
+
+
+.hero img {
+width: 124px;
+display: flex;
+float: left;
+margin : 0 10px;
+}
+
+
+.hero .kotak {
+  width: 500px;
+  height: 220px;
+  background-color: #ECECEC;
+  padding: 0 10px;
+  
+}
+
+
+.hero,.caption {
+  margin-left: 80px;
+  font-family: 'Saira', sans-serif;
+  margin-top: 20px;
+  
+}
+
+
+
+.hero, .caption p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+
+.caption a {
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+  margin-top: 5px;
+}
+
+
+
+
+
+/* Akhir Home */  
+
+/* Awal Categories */
+
+/* Akhir Categories */
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: #ECECEC;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+
+
+}
+
+
+.isi p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+
+/* FEATURED PRODUCT  */
+.featured{
+margin-top: 60px;
+
+}
+
+
+
+.kotak-fu{
+  width: 250px;
+  height: 250px;
+  background-color: #ECECEC;
+  padding: 15px;
+
+}
+
+
+.item-fu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption-fu  h5  {
+  font-size: 18px;
+}
+
+
+.caption p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.row-head {
+ margin-top: 0px;
+}
+@media (min-width: 500px) { 
+.kotak-fu {
+  margin-bottom: 30px;
+}
+
+}
+.spesial-offer {
+  z-index: 1;
+  position: relative;
+  color: white;
+  margin-top: 70px;
+
+}
+
+
+
+
+.spesial {
+  background-image: url(assets/img/spesial.png);
+  height: 275px;
+  width:100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+
+
+.caption-sp{
+  color: white;
+}
+
+.caption-sp h5,p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+.caption-sp a {
+  font-size: 14px;
+  padding: 15px;
+}
+
+
+
+
+
+/* akhir FEATURED PRODUCT  */
+
+
+
+/* About us */
+
+
+.kotak-ab {
+width :85%;
+height :236px;
+background-color: #DBDBDB;
+display: flex;
+}
+
+.logo-ab {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 20px;
+}
+
+
+.caption-ab {
+  width: 86%;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.caption-ab h3 {
+  font-size: 36px;
+  width: 400;
+  margin-top: 10px;
+}
+
+.caption-ab p {
+  font-size:22px;
+  font-weight: 300;
+
+}
+
+
+.visi, .misi {
+  width: 65%;
+}
+
+
+
+
+.btn-de {
+background-color: #C4C4C4;
+padding: 10px 15px;
+}
+
+
+
+.detail-pr-row{
+  margin-top: -5px;
+}
